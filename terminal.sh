@@ -2,7 +2,9 @@
 
 cd hello_scripts
 
-#This Code will Not Run if the profiles are not set correctly
+# This Code will Not Run if the profiles are not set correctly
+# Este código não irá rodar se os perfis não forem criados corretamente
+# Este código no se ejecutará si los perfiles no se crean correctamente
 
 #Python Profile
 # Bg = #1A1F6E
@@ -67,6 +69,9 @@ gnome-terminal --window --geometry=190x45+0+0 --wait -- bash -c "gnome-terminal 
 sleep $TIME
 gnome-terminal --window --geometry=190x45+0+0 --wait -- bash -c "bash ./hello.sh; sleep 1" &
 sleep $TIME
+
+# Final, please like and subscribe
+
 gnome-terminal --window --geometry=190x45+0+0 --wait -- bash -c "bash ../split_window.sh; sleep 1" &
 sleep $TIME
 killall gnome-terminal # closes all windows
